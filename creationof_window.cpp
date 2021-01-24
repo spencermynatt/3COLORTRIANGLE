@@ -70,7 +70,8 @@ int main() {
 	
 
 	while (!glfwWindowShouldClose(window)) {
-
+//THE REASON WWHY THE LOOP OF THE TRIANGLE UPDATING IT'S COLOR GOES BACK TO THE ORIGINAL COLOR IS BECAUSE THE WHILE LOOP ON THE OUTSIDE FOR WINDOW HAS NOT CLOSED,
+		//SO IT WILL JUST RUN ON FOREVER
 		glUseProgram(program);
 		
 		//float time = glfwGetTime();
